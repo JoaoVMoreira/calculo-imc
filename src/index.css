@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #7591F5;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.conteiner{
+  width: 100%;
+  height: 620px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.box{
+  width: 93%;
+  height: 92%;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.componente1{
+  float: left;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction:column;
+}
+
+.componente2 {
+  float: right;
+  width: 50%;
+  height: 100%;
+  background-color: #E2E6F1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px; 
+  
+}
+
+.componente1 form{
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+img{
+  margin-top: -6px;
+  margin-right: 5px;
+  width: 60px;
+  height: 60px;
+}
+.logo img{
+  float: left;
+}
+
+.logo h1{
+  float: right;
+}
+
+.logo {
+  align-items: center;
+  margin-bottom: 35px;
+}
+
+.componente1 input{
+  width: 400px;
+  height: 45px;
+  margin-left: 125px;
+  margin-bottom: 25px;
+  border: #E2E6F1 solid 1px;
+  color: black;
+}
+
+.componente1 button{
+  width: 400px;
+  height: 45px;
+  margin-left: 125px;
+  margin-top: 5px;
+  background-color: #4E55F0;
+  border: 0;
+  color: white;
+  font: 900;
+  font-size: 18px;
+}
+
+.componente1 button:hover{
+  background-color: #383fbc;
+  transition: 0.2s;
+}
+
+.componente2 img{
+  width: 150px;
+  height: 350px;
+  margin-top: 30px;
+}
+
+.componente2 h3{
+  color: black;
+  font-weight: 900;
+  font-size: 30px;
+}
