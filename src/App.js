@@ -1,5 +1,7 @@
 import { useState } from 'react'
 
+import { GiBodyHeight } from 'react-icons/gi'
+
 function App() {
   const [altura, setAltura] = useState('')
   const [peso, setPeso] = useState('')
@@ -7,19 +9,30 @@ function App() {
   const [status, setStatus] = useState('')
 
   function Calc(){
-    let imcCalcula = peso / (altura * altura)
-    let imcFormated = imcCalcula.toFixed(2)
-    setImc(imcFormated)
 
-    if (imcFormated <= 17) {
-      setStatus('Magro')
-    } else if (imcFormated > 17 && imcFormated <= 25) {
-      setStatus('Na média')
-    } else if (imcFormated > 25 && imcFormated <= 35) {
-      setStatus('Obeso')
-    } else if (imcFormated > 35) {
-      setStatus('Obesidade Morbida')
+    if (peso == '' || altura == ''){
+      alert('Favor inserir os valores de peso e altura')
+    } else if (peso == 0 || altura == 0){
+      alert('Favor inserir valores diferentes de 0')
+    } else{
+      if(altura > 3){
+        setAltura(altura/100)
+      }
+      let imcCalcula = peso / (altura * altura)
+      let imcFormated = imcCalcula.toFixed(2)
+      setImc(imcFormated)
+
+      if (imcFormated <= 17) {
+        setStatus('Magro')
+      } else if (imcFormated > 17 && imcFormated <= 25) {
+        setStatus('Na média')
+      } else if (imcFormated > 25 && imcFormated <= 35) {
+        setStatus('Obeso')
+      } else if (imcFormated > 35) {
+        setStatus('Obesidade Morbida')
+      }
     }
+
   }
   
 
@@ -33,7 +46,7 @@ function App() {
               <h1>Calculo de IMC</h1>
             </div>  
             <form>
-              <input type='text' placeholder="Altura" value={altura} onChange={(e)=>setAltura(e.target.value)}/>
+              <input type='text' placeholder={"Altura"} value={altura} onChange={(e)=>setAltura(e.target.value)}/>
               <input type='text' placeholder="Peso" value={peso} onChange={(e)=>setPeso(e.target.value)}/>
               <button type="button" onClick={Calc}>Calcular</button>
             </form>
