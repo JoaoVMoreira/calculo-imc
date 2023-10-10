@@ -1,70 +1,91 @@
-# Getting Started with Create React App
+<h3 align="center">
+  Aplicação para calculo de índice de massa corporal📝
+</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 🔖 Informações
 
-## Available Scripts
+- Aplicação simples, composta por dois inputs que formatam os valores recebidos pelo usuário, em seguida os encaminha para a função <strong>Calc()</strong> que realiza o calculo do IMC;
+- Modificação das ilustrações apresentadas de acordo com o resultado de <strong>Calc()</strong>.
 
-In the project directory, you can run:
+## 🖼 Screenshot das telas da aplicação
 
-### `npm start`
+<img src="/main.png" alt="Imagem da tela de calculo de IMC com um desenho obeso">
+<br/>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🚀 Tecnologias utilizadas 
 
-### `npm test`
+<br/>
+<p align="left">
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg"
+      alt="HTML5"
+      width="120"
+      height="120"
+    />
+  </a>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+  <a href="https://developer.mozilla.org/pt-BR/docs/Web/CSS" target="_blank">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg"
+      alt="Css3"
+      width="120"
+      height="120"
+    />
+  </a>
+  
+  <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">
+    <img
+      src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg"
+      alt="javascript"
+      width="120"
+      height="120"
+    />
+  </a>
+  <a href="https://legacy.reactjs.org/docs/getting-started.html" target="_blank">
+    <img
+      src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png"
+      alt="javascript"
+      width="120"
+      height="120"
+    />
+  </a>
+</p>
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### :memo: Funcionalidades: 
+- Calculo de IMC (Índice de massa corporal);
+- Imagens interativas de acordo com o resultado do calculo;
+- Inputs inteligentes.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# 👷 Como rodar
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+# Clonar o repositório
+git clone https://github.com/teteusAraujo/I-need-to-learn
 
-### `npm run eject`
+# Entrar numa IDE de sua preferência 
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+# Iniciar aplicação
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+npm start
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## :mortar_board: Autor
 
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<table align="center">
+    <tr>
+        <td align="center">
+            <a href="https://github.com/JoaoVMoreira">
+                <sub><b>João Vittor Moreira de Oliveira</b></sub>
+            </a>
+        </td>    
+    </tr>
+</table>
+<h4 align="center">
+   Feito com 💜 by  <a href="https://www.linkedin.com/in/jvittormoreira/" target="_blank"> João Moreira </a>
+</h4>
